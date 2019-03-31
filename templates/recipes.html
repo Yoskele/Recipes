@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+  <!-- List all the recipes that have been 'passed in' to this template's context.
+    Also show a button to add a new recipe, in an appropriate part of the page. -->
+<h1> Welcome to your Recipes </h1>
+	<div class="container-recipes">
+
+			<div class="recipes">
+			{% for item in recipes %}
+				<form method="GET">
+
+
+			<div class="item mt-2">		
+				<a href="{{ url_for('show_recipe', recipe_id=item[3])}}" type="button" class="btn btn-primary btn-lg btn-block"> {{item[1]}} </a>
+				</form>
+			</div>
+			{% endfor %}
+
+			<br>
+			 <a href="{{url_for('add_recipe')}}" class="btn btn-primary"> Add New Recipe </a>
+
+			 <br>
+			</div>
+
+
+			
+
+
+			<!-- <a href="url_for('show_recipe, recipe = item[1]')}}"> go </a> -->
+
+
+
+	</div>
+
+{% endblock %}

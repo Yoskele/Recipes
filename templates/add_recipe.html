@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-5">
+	<h1>Add New Recipe</h1>
+	<!-- Add a form to allow the user to input data for a new recipe which is to be added to the database. -->
+	<form method="post">
+		
+	<div class="upload">
+		
+		<div class="description mt-2">
+		    <label> <b> Description </b> </label>
+		    <input name="description" type="text" class="form-control" placeholder="Enter Description">
+		</div>
+
+	    <div class="ingredients mt-2">
+		    <label> <b> Ingredients </b> </label>
+		    <input name="ingredients" type="text" class="form-control" placeholder="Enter Description">
+		</div>
+
+	</div>
+
+	  <button type="submit" class="btn btn-primary mt-2">Submit</button>
+	</form>
+
+
+</div>
+{% endblock %}

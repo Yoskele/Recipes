@@ -1,0 +1,58 @@
+.svg-icon {
+	margin: 0 4px 8px 0;
+}
+
+.recipe-image {
+	height: 180px;
+}
+
+.ingredients-text {
+	white-space: pre-wrap;
+	margin-left: 3%;
+}
+
+
+
+/* Från recipes.html */
+.container-recipes{
+	margin-left:500px;
+	width:400px;
+	text-align:center;
+
+	margin:40px;
+}
+
+.recipes{
+	margin-left:500px;
+	width:400px;
+}
+
+/* Från Add recipes */
+.container{
+	margin-left:500px;
+	padding:5px;
+	border:1px dotted black;
+	border-radius:10px;
+	width:400px;
+	text-align:center;
+}
+
+/* Från Recipe */
+
+.minibox{
+	border:1px dotted black;
+	margin:40px;
+	margin-left:200px;
+	width:800px;
+	height:400px;
+
+}
+
+.description{
+	text-align:center;
+}
+
+.ingredients{
+	text-align:center;
+
+}

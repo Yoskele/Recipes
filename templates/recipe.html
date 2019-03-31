@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container-fluid">
+  <!-- Display information about the given recipe. Be sure to show its image, also. -->
+
+<h1> Detta ska vara en Recept </h1>
+	
+	<div class="minibox">
+
+		<div class="description col-sm-4">
+			<h4> Description </h4>
+			<p> {{recipe.1}} </p>
+		</div>
+
+		<br>
+
+		<div class="ingredients col-sm-4">
+			<h4> Ingredients </h4>
+			<p> {{recipe.ingredients}} </p>
+
+		</div>
+
+
+
+	</div>
+
+
+
+
+
+
+
+</div>
+
+  {% endblock %}
